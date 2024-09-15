@@ -9,7 +9,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.material3.Button
 import androidx.compose.foundation.layout.Column
 
-import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 
 import androidx.compose.runtime.remember
@@ -17,7 +16,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 
-import androidx.compose.foundation.layout.Row
 import androidx.compose.runtime.saveable.rememberSaveable
 @Composable
 fun WaterCounter(modifier: Modifier = Modifier) {
